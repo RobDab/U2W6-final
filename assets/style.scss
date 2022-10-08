@@ -1,9 +1,27 @@
-
+@import "./variables";
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
 
 h2 {
     font-weight: 600;
     font-size: 2rem;
 }
+
+.bg-nav {
+    background: $navbar_bg;
+    background: $navbar_bg-gr;
+}
+
+.bg-nav-dark {
+    background: $navbar_bg-dark;
+    background: $navbar_bg-dark-gr;
+}
+
+

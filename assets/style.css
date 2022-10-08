@@ -10771,3 +10771,23 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h2, .h2 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.bg-nav {
+  background: rgb(162, 60, 0);
+  background: linear-gradient(0deg, rgb(182, 67, 0) 0%, rgb(237, 99, 0) 23%, rgb(230, 96, 0) 79%, rgb(191, 72, 0) 100%);
+}
+
+.bg-nav-dark {
+  background: rgb(210, 88, 0);
+  background: linear-gradient(0deg, rgb(210, 88, 0) 0%, rgb(162, 60, 0) 21%, rgb(180, 68, 0) 82%, rgb(230, 96, 0) 100%);
+}
