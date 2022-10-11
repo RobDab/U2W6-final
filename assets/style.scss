@@ -46,3 +46,18 @@ h2 {
 
 }
 
+.partner_logo {
+    background-image: url("./logo1.png");
+    @include partner-logo;
+}
+
+.partner_logo1 {
+    background-image: url("./logo2.png");
+    @include partner-logo
+}
+
+.partner-section {
+    padding: 1em 0;
+    padding-inline: 50px;
+    background-color: rgba(230,96,0,1);
+}

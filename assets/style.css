@@ -10813,3 +10813,25 @@ h2, .h2 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.partner_logo {
+  background-image: url("./logo1.png");
+  height: 50px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.partner_logo1 {
+  background-image: url("./logo2.png");
+  height: 50px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.partner-section {
+  padding: 1em 0;
+  padding-inline: 50px;
+  background-color: rgb(230, 96, 0);
+}

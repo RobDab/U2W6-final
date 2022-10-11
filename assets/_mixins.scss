@@ -7,4 +7,12 @@
 @mixin section-bg-img {
     background-position: center;
     background-size: cover;
+};
+
+@mixin partner-logo {
+    height: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
