@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./mixins";
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -24,4 +25,24 @@ h2 {
     background: $navbar_bg-dark-gr;
 }
 
+.presentation_section {
+    @include pres-section;
+}
+
+.section_title {
+    color: rgba(191,72,0,1);
+}
+
+.section_img {
+    background-image: url("./pngegg.png");
+    @include section-bg-img;
+}
+
+.section_img2 {
+    background-image: url("./pngegg1.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
 
